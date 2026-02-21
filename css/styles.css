@@ -877,7 +877,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .footer-subscribe {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     flex-direction: column;
     margin-left: 0px;
@@ -897,7 +897,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-subscribe-text {
+    margin-bottom: 16px;
+  }
 }
 
 .footer-subscribe-form {
@@ -911,27 +917,13 @@ img {
   .footer-subscribe-form {
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
-    margin-left: 0;
-  }
-}
-
-@media screen and (min-width: 1158px) {
-  .footer-subscribe-form {
-    gap: 0;
+    align-items: center;
+    gap: 24px;
   }
 }
 
 .footer-subscribe-label {
-  margin-right: -16px;
-  padding: 0;
-  display: inline-block;
-}
-
-@media screen and (min-width: 1158px) {
-  .footer-subscribe-label {
-    margin-right: 0;
-  }
+  display: none;
 }
 
 .footer-user-field {
@@ -971,7 +963,7 @@ img {
 }
 
 .footer-button {
-  margin: 0 auto;
+  margin: 0;
   background-color: #4d5ae5;
   border-radius: 4px;
   border: none;
@@ -994,9 +986,6 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
-  .footer-button {
-    margin-left: 24px;
-  }
 }
 
 .footer-button:hover,
@@ -1338,7 +1327,7 @@ img {
 
 .mob-contacts {
   font-style: normal;
-  margin-bottom: auto;
+  margin-bottom: 48px;
 }
 
 .mob-contacts-list {
