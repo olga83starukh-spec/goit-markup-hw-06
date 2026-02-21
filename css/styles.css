@@ -365,7 +365,7 @@ img {
   padding: 96px 0;
 }
 
-.benefits-icon {
+.benefits-card {
   display: none;
 }
 
@@ -1337,7 +1337,7 @@ img {
 
 .mob-contacts {
   font-style: normal;
-  margin-bottom:;
+  margin-bottom: auto;
 }
 
 .mob-contacts-list {
@@ -1346,7 +1346,6 @@ img {
   gap: 24px;
   align-items: flex-start;
   justify-content: center;
-  margin-bottom: 48px;
 }
 
 .mob-contacts-link-current {
