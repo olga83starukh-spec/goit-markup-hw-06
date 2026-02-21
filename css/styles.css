@@ -898,12 +898,7 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
   margin-top: 0;
-}
-
-@media screen and (min-width: 768px) {
-  .footer-subscribe-text {
-    margin-bottom: 16px;
-  }
+  margin-bottom: 16px;
 }
 
 .footer-subscribe-form {
